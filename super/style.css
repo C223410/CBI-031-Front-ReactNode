@@ -10,8 +10,15 @@ a:hover{
     color: aqua;
 }
 
+a{
+    padding: 5%;
+}
+
 .rot{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     padding: 10px;
+}
+table{
+    text-align: left;
 }
