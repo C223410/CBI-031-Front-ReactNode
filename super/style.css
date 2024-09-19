@@ -1,0 +1,17 @@
+nav{
+    padding: 10px;
+    display: inline;
+}
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: aqua;
+}
+
+.rot{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 10px;
+}
