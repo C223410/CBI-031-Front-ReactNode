@@ -1,32 +1,48 @@
-nav{
+nav {
     padding: 10px;
     display: inline;
 }
-a, a:focus, a:active {
+
+a,
+a:focus,
+a:active {
     text-decoration: none;
     color: inherit;
 }
-a:hover{
+
+a:hover {
     color: aqua;
 }
 
-a{
+a {
     padding: 5%;
 }
 
-.rot{
+.rot {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     padding: 10px;
     color: rgb(193, 219, 214);
     text-size-adjust: 10px;
 }
-table{
+
+table {
     text-align: left;
 }
-.fst{
+
+.fst {
     background-image: url("https://t3.ftcdn.net/jpg/08/34/91/98/360_F_834919872_LMiMxy09eGfoCXlsRZV1Xw7YMzTBvdYK.jpg");
     background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.AboutMe {
+    background-color: bisque;
+    text-align: center;
+    align-items: center;
+    padding: 10%;
+}
+.pad10{
+    padding: 10px;
 }
