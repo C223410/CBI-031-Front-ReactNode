@@ -19,10 +19,14 @@ a{
     transform: rotate(180deg);
     padding: 10px;
     color: rgb(193, 219, 214);
+    text-size-adjust: 10px;
 }
 table{
     text-align: left;
 }
 .fst{
     background-image: url("https://t3.ftcdn.net/jpg/08/34/91/98/360_F_834919872_LMiMxy09eGfoCXlsRZV1Xw7YMzTBvdYK.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
