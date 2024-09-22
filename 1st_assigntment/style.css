@@ -181,3 +181,45 @@ button:hover {
     line-height: 30px;
     /* 166.667% */
 }
+
+.Card {
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.Card img {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.Card h2 {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Card p {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 201px;
+    /* 175% */
+}
