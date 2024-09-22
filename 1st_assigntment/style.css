@@ -1,12 +1,13 @@
 html * {
     font-family: "Open Sans" !important;
-  }
-  
-  /* Container for three blocks */
-  .stBack {
+}
+
+/* Container for three blocks */
+.stBack {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items to the top */
+    align-items: flex-start;
+    /* Align items to the top */
     width: 100%;
     height: 837px;
     background: #FFF8F3;
@@ -14,100 +15,169 @@ html * {
     background-position: right bottom;
     background-repeat: no-repeat;
     padding: 20px;
-  }
-  
-  /* First block: Developer image */
-  .dev {
+}
+
+/* First block: Developer image */
+.dev {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .dev img {
+    padding: 0%;
+}
+
+.dev img {
     max-width: 100%;
     height: auto;
-  }
-  
-  /* Second block: Middle content (Merry, title, buttons) */
-  .middle {
+}
+
+/* Second block: Middle content (Merry, title, buttons) */
+.middle {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Aligns items to the top and bottom */
+    justify-content: space-between;
+    /* Aligns items to the top and bottom */
 
-  }
-  
-  .nav-bar {
-    align-self: flex-start; /* Align navigation at the top */
+}
+
+.nav-bar {
+    align-self: flex-start;
+    /* Align navigation at the top */
     align-items: last baseline;
-  }
-  
-  .middle h3 {
+}
+
+.middle h3 {
     font-weight: bold;
     margin-top: 0;
-  }
-  
+}
 
-  
-  .middle .comment {
+
+
+.middle .comment {
     font-size: 18px;
     color: var(--Dark-03, #757575);
     margin-bottom: 20px;
-  }
-  
-  .middle .buttons {
+}
+
+.middle .buttons {
     display: flex;
     gap: 10px;
-  }
-  
-  .middle button {
+}
+
+.middle button {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-  }
-  
-  .bti {
+}
+
+.bti {
     background: #FD6E0A;
     color: white;
     border: none;
-  }
-  
-  .bth {
+    display: block;
+}
+
+.bth {
     border: 2px solid #FD6E0A;
     color: #FD6E0A;
     background: none;
-  }
-  
-  /* Third block: Navigation links and Hire Me button */
-  .fl {
+}
+
+/* Third block: Navigation links and Hire Me button */
+.fl {
     display: flex;
     gap: 15px;
-  }
-  
-  .fl a {
+}
+
+.fl a {
     padding: 10px;
     text-decoration: none;
     color: black;
     font-size: 18px;
-  }
-  
-  .fl a:hover {
+}
+
+.fl a:hover {
     color: blue;
-  }
-  
-  .bt {
+}
+
+.bt {
     background-color: #FD6E0A;
     border: none;
     padding: 10px 15px;
     color: white;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  button:hover {
-    color: white;
-  }
-  .hed{
+}
 
-  }
+button:hover {
+    color: black;
+    border-radius: 10px;
+}
+
+.hed {
+    width: 100%;
+    height: 698px;
+}
+
+.SecondPage {
+    /* border-radius: 10px; */
+    background: #FFF8F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.cDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.TR {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.TR h3 {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.ThirdPage {
+    /* border-radius: 10px; */
+    /* background: #FFF8F3; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.Tp {
+    width: 909px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
