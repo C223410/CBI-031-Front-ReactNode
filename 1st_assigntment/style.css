@@ -7,7 +7,6 @@ html * {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* Align items to the top */
     width: 100%;
     height: 837px;
     background: #FFF8F3;
@@ -37,13 +36,11 @@ html * {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Aligns items to the top and bottom */
 
 }
 
 .nav-bar {
     align-self: flex-start;
-    /* Align navigation at the top */
     align-items: last baseline;
 }
 
@@ -121,7 +118,6 @@ button:hover {
 }
 
 .SecondPage {
-    /* border-radius: 10px; */
     background: #FFF8F3;
     display: flex;
     flex-direction: column;
@@ -159,8 +155,6 @@ button:hover {
 }
 
 .ThirdPage {
-    /* border-radius: 10px; */
-    /* background: #FFF8F3; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,7 +173,6 @@ button:hover {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
 }
 
 .Card {
@@ -221,11 +214,10 @@ button:hover {
     font-weight: 400;
     line-height: 28px;
     width: 201px;
-    /* 175% */
 }
 
 .FourthPage {
-    /* border-radius: 10px; */
+    
     background: var(--White-Color, #FFF);
     display: flex;
     flex-direction: column;
@@ -282,31 +274,30 @@ button:hover {
     font-weight: 400;
     line-height: 28px;
     padding-right: 20px;
-    /* 175% */
 }
 footer {
     background: #FFF8F3;
-    display: flex; /* Changed to flex */
-    justify-content: center; /* Centers the columns horizontally */
-    align-items: flex-start; /* Aligns items at the top */
-    height: auto; /* Adjusts height based on content */
-    padding: 40px; /* Adds padding around the footer */
-    text-align: left; /* Ensures text is aligned left */
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    height: auto; 
+    padding: 40px; 
+    text-align: left; 
 }
 
-.pad, .inp { /* Added this rule to target both columns */
-    flex: 1; /* Each column takes equal space */
-    max-width: 500px; /* Optional: restricts the width of each column */
-    margin: 0 20px; /* Adds space between the columns */
+.pad, .inp { 
+    flex: 1; 
+    max-width: 500px; 
+    margin: 0 20px; 
 }
 
-.social-icons { /* Added this class to style social icons */
+.social-icons { 
     display: flex;
-    gap: 10px; /* Space between social icons */
+    gap: 10px; 
 }
 
 .custom-input {
-    width: 100%; /* Make inputs fill the column */
+    width: 100%; 
     height: 64px;
     border-radius: 5px;
     background: var(--White-Color, #FFF);
