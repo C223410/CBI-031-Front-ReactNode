@@ -1,7 +1,7 @@
 /* Global styles */
 html * {
     font-family: "Open Sans" !important;
-    max-width: 95%;
+    max-width: 1600px;
     max-height: 100%;
 }
 
@@ -116,7 +116,9 @@ nav a:hover {
     text-align: center;
 }
 
-.middle button, .bti, .bth {
+.middle button,
+.bti,
+.bth {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,6 +164,12 @@ button:hover {
     background: #FD6E0A;
     border: none;
     margin-left: 51px;
+}
+
+.hed {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
 
 /* Section containers */
