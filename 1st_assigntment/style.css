@@ -14,8 +14,8 @@ header {
     /* Full viewport height */
     background: #FFF8F3;
     background-image: url("rss/Developer.png"),
-        url("/rss/1699492_P3OLGJ1 1.png"),
-        url("/rss/Group 12.png");
+        url("rss/1699492_P3OLGJ1 1.png"),
+        url("rss/Group 12.png");
     background-position: left center, right bottom, right bottom;
     background-repeat: no-repeat;
     padding: 20px;
