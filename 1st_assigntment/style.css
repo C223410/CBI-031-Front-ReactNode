@@ -1,6 +1,8 @@
 /* Global styles */
 html * {
     font-family: "Open Sans" !important;
+    max-width: 95%;
+    max-height: 100%;
 }
 
 /* Header */
@@ -108,23 +110,27 @@ nav a:hover {
 }
 
 .middle .buttons {
-    display: inline-block;
-    justify-content: center;
-    text-align: left;
+    display: inline-flex;
+    align-items: center;
     gap: 10px;
+    text-align: center;
 }
 
-.middle button {
+.middle button, .bti, .bth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px;
     cursor: pointer;
 }
 
 .bti {
+    width: 200px;
     background: #FD6E0A;
     color: white;
     border: none;
-    padding: 15px;
+    text-align: center;
 }
 
 .bti:hover {
@@ -174,6 +180,7 @@ button:hover {
 .SecondPage {
     background: #FFF8F3;
 }
+
 .cDetail {
     display: flex;
     align-items: center;
