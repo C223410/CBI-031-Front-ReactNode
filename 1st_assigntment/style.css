@@ -39,13 +39,14 @@ header {
 }
 
 /* Navigation */
-.navbar nav {
+.navbar nav,
+.navbar nav ul {
     display: flex;
     align-items: center;
     padding: 51px;
 }
 
-nav li {
+nav ul li {
     list-style: none;
     margin-left: 51px;
 }
