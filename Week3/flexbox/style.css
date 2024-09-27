@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.custom-input {
+
+    border-radius: 5px;
+    border: slategray;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 90%;
+}
+
+.icon img {
+    height: 36px;
+}
+.lin{
+    display: flex;
+}
+.mail,
+.pass {
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.pass{
+    padding-bottom: 15px;
+}
+
+.Card {
+    /* display: flexbox; */
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: #3ff5c7;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    height: 500px;
+
+}
+
+.up {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+button:hover,
+a:hover {
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 5px;
+}
