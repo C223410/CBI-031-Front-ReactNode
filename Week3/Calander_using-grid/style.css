@@ -1,0 +1,31 @@
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+    /* grid-template-columns: repeat(7,fr); */
+}
+.year{
+    display: flex;
+    align-items: center;
+    color: rgb(99, 234, 99);
+}
+
+.day,
+.date {
+    padding: 5px;
+    height: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 5px;
+}
+.day:hover,
+.date:hover{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.day{
+    color: white;
+    background-color: green;
+}
