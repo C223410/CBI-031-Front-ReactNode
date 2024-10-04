@@ -1,0 +1,21 @@
+header {
+    max-width: 100vw;
+}
+
+header  h1{
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.nb{
+    display: flex;
+    justify-content: space-around;
+}
