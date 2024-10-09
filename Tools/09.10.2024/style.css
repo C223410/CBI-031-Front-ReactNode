@@ -21,7 +21,7 @@ img {
     gap: 5px;
 }
 
-.sq{
+.sq {
     display: none;
 }
 
@@ -30,12 +30,14 @@ img {
         flex-direction: column;
         height: auto;
     }
+
     .square {
         display: none;
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
     }
-    .sq{
-        display:block;
+
+    .sq {
+        display: block;
     }
 }
 
