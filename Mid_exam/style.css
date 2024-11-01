@@ -1,11 +1,13 @@
 * {
     font-family: "Lato", sans-serif;
+
 }
 
 header {
     background: var(--bgfeedbc, #FEEDBC);
     max-width: 1920px;
     max-height: 4984px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -26,7 +28,7 @@ header {
     background: var(--white-ffffff, #FFF);
 }
 
-header>h1 {
+.hadFirst>h1 {
     color: var(--yellow-f-9-b-800, #F9B800);
     font-size: 30px;
     font-style: normal;
@@ -35,7 +37,7 @@ header>h1 {
     text-transform: uppercase;
 }
 
-header>h2 {
+.hadFirst>h2 {
     color: var(--dark-262626, #262626);
     font-size: 80px;
     font-style: normal;
@@ -43,9 +45,18 @@ header>h2 {
     line-height: 90px;
 }
 
-.fl{
+.fl {
     display: flex;
 }
-.had{
+
+.had {
     justify-content: center;
+}
+
+.hadFirst {
+    margin-top: 150px;
+}
+
+#upper {
+    text-transform: uppercase;
 }
