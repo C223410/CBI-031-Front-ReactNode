@@ -7,6 +7,7 @@ header {
     background: var(--bgfeedbc, #FEEDBC);
     max-width: 1920px;
     max-height: 4984px;
+    height: 1053px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,14 +44,20 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 90px;
+    margin-bottom: 60px;
 }
 
 .fl {
     display: flex;
 }
 
+.fl-wrap {
+    flex-wrap: wrap;
+}
+
 .had {
     justify-content: center;
+    margin-left: 255px;
 }
 
 .hadFirst {
@@ -59,4 +66,53 @@ header {
 
 #upper {
     text-transform: uppercase;
+}
+
+.box {
+    border-radius: 5000px;
+    background: var(--white-ffffff, #FFF);
+    display: flex;
+    padding: 14px 40px 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.hadSecond{
+    margin-right: 160px;
+}
+
+.loremIpsum {
+    margin-top: 60px;
+    border-radius: 5000px;
+    background: var(--yellow-f-9-b-800, #F9B800);
+    display: flex;
+    width: 350px;
+    padding: 22px 50px 24px 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paint {
+        margin-left: 0px;
+        width: 350px;
+        height: 72px;
+        flex-shrink: 0;
+    }
+
+    .had {
+        flex-direction: column-reverse;
+    }
+
+    .hadSecond>img {
+        width: 350px;
+        height: 350px;
+        flex-shrink: 0;
+    }
 }
