@@ -5,8 +5,8 @@
 
 header {
     background: var(--bgfeedbc, #FEEDBC);
-    max-width: 1920px;
-    max-height: 4984px;
+    max-width: 100vw;
+    max-height: 100vh;
     height: 1053px;
     display: flex;
     flex-direction: column;
@@ -123,7 +123,9 @@ main {
 .ml-258{
     margin-left: 258px;
 }
-
+.w-780{
+    width: 780px;
+}
 @media only screen and (max-width: 600px) {
     body {
         display: flex;
