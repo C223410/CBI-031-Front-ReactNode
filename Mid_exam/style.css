@@ -13,11 +13,6 @@ header {
     justify-content: center;
 }
 
-.top {
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-}
 
 .paint {
     margin-left: 60px;
@@ -80,9 +75,6 @@ header {
     gap: 7px;
 }
 
-.hadSecond {
-    margin-right: 160px;
-}
 
 .loremIpsum {
     margin-top: 60px;
@@ -107,10 +99,7 @@ main {
 }
 
 
-.bg-white {
-    border-radius: 5000px;
-    background: var(--white-ffffff, #FFF);
-}
+
 
 .bg-yellow {
     background-color: #F9B800
