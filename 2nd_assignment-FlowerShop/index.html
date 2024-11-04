@@ -13,21 +13,32 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-
+  <style>
+    * {
+      margin: 0px;
+      font-family: Lato;
+    }
+  </style>
   <body>
     <!-- 1st Page -->
-    <header>
-      <div class="container">
+    <header class="flex">
+
+      <div class="flex flex-col justify-center items-center ml-[240px] mr-[240px]">
         <h1>Let's make beautiful flowers a part of your life.</h1>
+
         <h2>
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution of
           letters.
         </h2>
-        <button>Shop Now</button>
+
+        <button class="bg-[#E55473] flex pt-[20px] pb-[20px] pl-[43px] pr-[43px]">Shop Now</button>
+
       </div>
-      <img src="rss/pngwing 10.png" alt="rose" />
+
+      <div><img src="rss/pngwing 10.png" alt="rose" /></div>
+
     </header>
   </body>
 </html>
