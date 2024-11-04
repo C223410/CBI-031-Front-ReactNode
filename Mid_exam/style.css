@@ -3,32 +3,6 @@
 
 }
 
-header {
-    max-width: 100vw;
-    max-height: 100vh;
-    height: 1053px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-.had {
-    justify-content: center;
-    margin-left: 255px;
-}
-
-
-.box {
-    border-radius: 5000px;
-    background: var(--white-ffffff, #FFF);
-    display: flex;
-    padding: 14px 40px 14px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
-}
-
 
 .loremIpsum {
     margin-top: 60px;
