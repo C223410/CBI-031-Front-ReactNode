@@ -91,7 +91,6 @@ main {
     justify-content: space-around;
 }
 
-.SndPage,
 .trdPage {
     max-width: 1440px;
     display: grid;
@@ -100,7 +99,6 @@ main {
     align-items: center;
     padding: 10px;
 }
-.secondPage
 
 .box {
     display: grid;
@@ -332,17 +330,6 @@ footer {
 
 footer>svg {
     mix-blend-mode: luminosity;
-}
-
-.foot {
-    padding: 39px 410px;
-    border-radius: 8px;
-    background: #FFF4E7;
-    max-width: 1440px;
-    max-height: 100px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    margin-top: 130px;
 }
 
 @media screen and (max-width: 576px) {
