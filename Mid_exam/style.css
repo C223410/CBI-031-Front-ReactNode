@@ -4,7 +4,6 @@
 }
 
 header {
-    background: var(--bgfeedbc, #FEEDBC);
     max-width: 100vw;
     max-height: 100vh;
     height: 1053px;
@@ -14,56 +13,11 @@ header {
 }
 
 
-.paint {
-    margin-left: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1600px;
-    height: 96px;
-    flex-shrink: 0;
-    border-radius: 5000px;
-    background: var(--white-ffffff, #FFF);
-}
-
-.hadFirst>h1 {
-    color: var(--yellow-f-9-b-800, #F9B800);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-}
-
-.hadFirst>h2 {
-    color: var(--dark-262626, #262626);
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 90px;
-    margin-bottom: 60px;
-}
-
-.fl {
-    display: flex;
-}
-
-.fl-wrap {
-    flex-wrap: wrap;
-}
-
 .had {
     justify-content: center;
     margin-left: 255px;
 }
 
-.hadFirst {
-    margin-top: 150px;
-}
-
-#upper {
-    text-transform: uppercase;
-}
 
 .box {
     border-radius: 5000px;
@@ -92,14 +46,6 @@ main {
     background-color: var(--dark-262626, #262626);
 }
 
-.secondPage {
-    height: 1544.5px;
-    flex-shrink: 0;
-    justify-content: center;
-}
-
-
-
 
 .bg-yellow {
     background-color: #F9B800
@@ -112,15 +58,6 @@ main {
     justify-content: center;
 }
 
-.box2p1>p {
-    color: var(--yellow-f-9-b-800, #F9B800);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.4px;
-    width: 552.063px;
-}
 
 .box2p1>h2 {
     color: var(--white-ffffff, #FFF);
@@ -137,21 +74,6 @@ main {
     align-items: center;
 }
 
-.align-bottom {
-    align-items: end;
-}
-
-.align-top {
-    align-items: baseline;
-}
-
-.ml-258 {
-    margin-left: 258px;
-}
-
-.w-780 {
-    width: 780px;
-}
 
 .rect1 {
     padding: 100px 135px;
@@ -194,43 +116,4 @@ main {
     font-weight: 700;
     line-height: normal;
 }
-/* 
-@media only screen and (max-width: 600px) {
-    body {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .paint {
-        margin-left: 0px;
-        width: 350px;
-        height: 72px;
-        flex-shrink: 0;
-    }
-
-    .had {
-        flex-direction: column-reverse;
-    }
-
-    .hadSecond>img {
-        width: 350px;
-        height: 350px;
-        flex-shrink: 0;
-    }
-
-    .ml-258 {
-        margin-left: 0;
-    }
-
-    .box2p2 {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
-        align-items: center;
-    }
-
-    .secondPage {
-        flex-direction: column;
-    }
-
-
-} */
