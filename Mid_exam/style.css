@@ -116,11 +116,13 @@ main {
     background-color: #F9B800
 }
 
-.box2p1,.box2p2{
+.box2p1,
+.box2p2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .box2p1>p {
     color: var(--yellow-f-9-b-800, #F9B800);
     font-size: 20px;
@@ -146,10 +148,11 @@ main {
     align-items: center;
 }
 
-.align-bottom{
+.align-bottom {
     align-items: end;
 }
-.align-top{
+
+.align-top {
     align-items: baseline;
 }
 
@@ -159,6 +162,10 @@ main {
 
 .w-780 {
     width: 780px;
+}
+
+.rect1 {
+    padding: 100px 135px;
 }
 
 .rect42 {
@@ -198,7 +205,7 @@ main {
     font-weight: 700;
     line-height: normal;
 }
-
+/* 
 @media only screen and (max-width: 600px) {
     body {
         display: flex;
@@ -225,14 +232,16 @@ main {
     .ml-258 {
         margin-left: 0;
     }
+
     .box2p2 {
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
         align-items: center;
     }
-    .secondPage{
+
+    .secondPage {
         flex-direction: column;
     }
-    
-    
-}
+
+
+} */

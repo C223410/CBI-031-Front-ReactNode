@@ -1,5 +1,6 @@
 * {
     font-family: "Work Sans", sans-serif;
+
 }
 
 header {
@@ -41,6 +42,10 @@ nav a {
 }
 
 /* Banner style starts */
+.banner {
+    padding-bottom: 45px;
+}
+
 .banner-title {
     margin-top: 116px;
     color: var(--Dark-01, #131313);
@@ -86,15 +91,16 @@ main {
     justify-content: space-around;
 }
 
-.SndPage {
+.SndPage,
+.trdPage {
     max-width: 1440px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* border: 1px solid black; */
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
+.secondPage
 
 .box {
     display: grid;
@@ -149,9 +155,203 @@ main {
     line-height: normal;
 }
 
+.trdPage>.box1 {
+    gap: 50px;
+}
+
+.title3 {
+    margin-top: 169px;
+    display: grid;
+    grid-template-columns: 5px auto;
+    justify-content: space-around;
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.col {
+    margin: 0;
+    background: #FF900E;
+    width: 5px;
+}
+
+.trdPage>.box1>p {
+    color: var(--Dark-03, #727272);
+    max-width: 586px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.P3 {
+    max-width: 586px;
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30;
+}
+
+
+.tiles {
+    width: 586px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.tiles>h1 {
+    color: var(--Dark-01, #131313);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tiles>p {
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.tenYear {
+    max-width: 342px;
+    max-height: 200px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF900E;
+}
+
+.st {
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 107.692% */
+}
+
+.st2 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.SomeFacts {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer>p {
+    color: var(--Dark-03, #727272);
+    max-width: 542px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 100px;
+    /* 162.5% */
+}
+
+
+
+.mono {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    width: 241px;
+    max-height: 241px;
+    flex-shrink: 0;
+    padding: 45px 0px;
+    align-items: center;
+
+}
+
+.MONO {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sponsor {
+    margin-top: 180px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sT {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.sP {
+    max-width: 542px;
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.onli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    max-width: 1920px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer>svg {
+    mix-blend-mode: luminosity;
+}
+
+.foot {
+    padding: 39px 410px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1440px;
+    max-height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-top: 130px;
+}
+
 @media screen and (max-width: 576px) {
-    nav {
-        flex-direction: column;
+
+    nav,
+    .MONO,
+    .onli {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
     }
 
     header {
@@ -162,13 +362,18 @@ main {
         margin-top: 50px;
     }
 
-    .SndPage{
+    .SndPage,
+    .trdPage {
         grid-template-columns: auto;
     }
 }
 
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav {
+
+    nav,
+    .MONO,
+    .onli {
         flex-direction: column;
     }
 
