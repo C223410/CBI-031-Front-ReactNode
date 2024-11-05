@@ -158,7 +158,7 @@ main {
 }
 
 .title3 {
-    margin-top: 169px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: 5px auto;
     justify-content: space-around;
@@ -221,8 +221,15 @@ main {
     line-height: 26px;
     /* 162.5% */
 }
+.architact-container{
+    position: relative;
+    margin-bottom: 168px;
+}
 
 .tenYear {
+    position: absolute;
+    left: -92px;
+    bottom: -77px;
     max-width: 342px;
     max-height: 200px;
     flex-shrink: 0;
@@ -353,6 +360,10 @@ footer>svg {
     .trdPage {
         grid-template-columns: auto;
     }
+    .tenYear{
+        left: 0px;
+        bottom: 0px;
+    }
 }
 
 
@@ -370,5 +381,9 @@ footer>svg {
 
     .banner-title {
         margin-top: 50px;
+    }
+    .tenYear{
+        left: 0px;
+        bottom: 0px;
     }
 }
