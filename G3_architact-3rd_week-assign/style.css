@@ -169,11 +169,6 @@ main {
     line-height: normal;
 }
 
-.col {
-    margin: 0;
-    background: #FF900E;
-    width: 5px;
-}
 
 .trdPage>.box1>p {
     color: var(--Dark-03, #727272);
